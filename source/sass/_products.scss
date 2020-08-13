@@ -1,7 +1,7 @@
 .products {
   background-color: var(--main-bg-color);
 
-  &__list{
+  &__list {
     background-color: var(--basic-gray-bg-color);
   }
 
@@ -19,7 +19,7 @@
 
   &__description {
     color: var(--special_dark-grey);
-    font-family: Arial;
+    font-family: "Arial", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;

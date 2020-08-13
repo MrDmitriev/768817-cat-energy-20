@@ -1,9 +1,10 @@
 .intro {
   background-color: var(--main-bg-color);
-  background-image: url('../img/index-background-mobile@1x.jpg');
+  background-image: url("../img/index-background-mobile@1x.jpg");
   background-repeat: no-repeat;
 
-  &__title, &__slogan {
+  &__title,
+  &__slogan {
     color: var(--secondary-text-color);
   }
 
@@ -18,5 +19,4 @@
     line-height: 14px;
     font-weight: 400;
   }
-
 }
