@@ -2,21 +2,21 @@
   background-color: var(--main-bg-color);
   background-image: url("../img/index-background-mobile@1x.jpg");
   background-repeat: no-repeat;
+}
 
-  &__title,
-  &__slogan {
-    color: var(--secondary-text-color);
-  }
+.intro__title,
+.intro__slogan {
+  color: var(--secondary-text-color);
+}
 
-  &__title {
-    font-size: 36px;
-    line-height: 36px;
-    font-weight: 400;
-  }
+.intro__title {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+}
 
-  &__slogan {
-    font-size: 14px;
-    line-height: 14px;
-    font-weight: 400;
-  }
+.intro__slogan {
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
 }

@@ -8,7 +8,7 @@
   display: none;
 }
 
-.btn-primary {
+.btn--primary {
   background-color: var(--basic-green-color);
   color: var(--secondary-text-color);
   text-transform: uppercase;
@@ -31,4 +31,9 @@
 
 .link-main {
   text-decoration: none;
+}
+
+.svg-icon {
+  background-color: var(--basic-green-color);
+  fill: var(--secondary-text-color);
 }
