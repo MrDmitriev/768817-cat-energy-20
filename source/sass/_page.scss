@@ -1,0 +1,34 @@
+.page {
+  background-color: var(--main-bg-color);
+  font-family: Oswald, sans-serif;
+  color: var(--primary-text-color);
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.btn-primary {
+  background-color: var(--basic-green-color);
+  color: var(--secondary-text-color);
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.btn-link {
+  border: none;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.link-main {
+  text-decoration: none;
+}
