@@ -1,0 +1,13 @@
+.page {
+  background-color: var(--main-bg-color);
+  font-family: "Oswald", sans-serif;
+  color: var(--primary-text-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
