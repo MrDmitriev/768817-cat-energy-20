@@ -2,6 +2,21 @@
   background-color: var(--main-bg-color);
 }
 
+.description__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 84%;
+  margin: auto;
+}
+
+.description__list {
+  display: flex;
+}
+
+.description__item {
+  max-width: 25%;
+}
 .description__title {
   font-style: normal;
   font-weight: 400;
@@ -17,4 +32,6 @@
   font-size: 14px;
   line-height: 18px;
   color: var(--special_dark-grey);
+  margin-left: 0;
+  max-width: 65%;
 }

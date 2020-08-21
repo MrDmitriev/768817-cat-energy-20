@@ -4,10 +4,23 @@
   color: var(--primary-text-color);
 }
 
+.page__body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+.page__image {
+  max-width: 100%;
+}
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
   margin: -1px;
+}
+
+.block {
+  border: 1px solid black;
 }

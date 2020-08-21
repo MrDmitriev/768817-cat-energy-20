@@ -4,6 +4,19 @@
 
 .products__list {
   background-color: var(--basic-gray-bg-color);
+    margin: 0px 27px;
+    max-width: 34.5%;
+    padding: 40px;
+}
+
+.products__wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0;
+}
+
+.products__header {
+  display: flex;
 }
 
 .products__title {
