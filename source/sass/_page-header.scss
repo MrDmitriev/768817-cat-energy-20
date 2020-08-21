@@ -6,5 +6,9 @@
 
 .page-header__logo {
   padding-left: 70px;
-  margin: auto;
+  margin-right: auto;
+
+  @media (max-width: $tablet-width) {
+    padding-left: 30px;
+  }
 }
