@@ -2,16 +2,33 @@
   background-color: transparent;
   z-index: 10;
   padding-right: 40px;
-}
 
+  @media (min-width: $tablet-width) {
+    padding-right: 0;
+  }
+}
+.main-nav__wrapper {
+  @media (max-width: $mobile-width-only) {
+    display: none;
+  }
+}
 .main-nav--link {
   font-size: 20px;
   line-height: 30px;
   text-transform: uppercase;
   padding-right: 40px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
 
 .main-nav__list {
   display: flex;
   list-style: none;
+
+  @media (max-width: $tablet-width) {
+    padding-left: 0;
+  }
 }
