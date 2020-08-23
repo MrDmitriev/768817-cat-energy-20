@@ -1,5 +1,7 @@
 .page-footer {
   grid-column: 1/-1;
+
+
 }
 
 .page-footer__wrapper{
@@ -7,8 +9,25 @@
   justify-content: space-between;
   max-width: 84%;
   margin: auto;
+
+  @media (max-width: $mobile-l-425) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .page-footer__social {
   width: 10%;
+
+  @media (max-width: $mobile-l-425) {
+    width: 45%;
+  }
+}
+
+.page-footer__copyright {
+  @media (max-width: $mobile-l-425) {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
 }

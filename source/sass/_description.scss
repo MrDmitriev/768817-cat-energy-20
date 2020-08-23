@@ -28,6 +28,13 @@
     max-width: 50%;
     padding-bottom: 100px;
   }
+
+  @media (max-width: $mobile-l-425) {
+    max-width: 100%;
+    display: flex;
+    padding-bottom: 10px;
+    width: 300px;
+  }
 }
 .description__title {
   font-style: normal;
@@ -49,5 +56,10 @@
 
   @media (max-width: $tablet-width) {
     padding-top: 20px;
+  }
+
+  @media (max-width: $mobile-l-425) {
+    padding-top: 5px;
+    padding-left: 15px;
   }
 }
