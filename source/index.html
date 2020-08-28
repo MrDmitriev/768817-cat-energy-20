@@ -9,56 +9,55 @@
 </head>
 
 <body class="page__body">
-  <header class="page-header">
-    <a class="page-header__logo">
-      <picture>
-        <source srcset="img/logo-desktop.svg" media="(min-width: 1200px)">
-        <source srcset="img/logo-tablet.svg" media="(min-width: 768px)">
-        <img src="img/logo-mobile.svg" width="202" height="59" alt="cat Energy">
-       </picture>
-
-    </a>
-    <nav class="main-nav">
-      <button hidden class="main-nav__toggle" type="button">
-        <span class="visually-hidden">Открыть меню</span>
-      </button>
-      <div class="main-nav__wrapper">
-        <ul class="main-nav__list site-list">
-          <li class="site-list__item site-list__item--active">
-            <a class="link main-nav--link" href="#">Главная</a>
-          </li>
-          <li class="site-list__item">
-            <a class="link main-nav--link" href="./catalog.html">Каталог продукции</a>
-          </li>
-          <li class="site-list__item">
-            <a class="link main-nav--link" href="#">Подбор программы</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <main class="page-main">
-    <h1 class="visually-hidden">"Кэт энерджи" - функциональное питание для котов</h1>
-
+  <header class="page-header block">
+    <div class="menu block">
+      <a class="page-header__logo">
+        <picture>
+          <source srcset="img/logo-desktop.svg" media="(min-width: 1200px)">
+          <source srcset="img/logo-tablet.svg" media="(min-width: 768px)">
+          <img src="img/logo-mobile.svg" width="202" height="59" alt="cat Energy">
+         </picture>
+      </a>
+      <nav class="main-nav">
+        <button hidden class="main-nav__toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item site-list__item--active">
+              <a class="link main-nav--link" href="#">Главная</a>
+            </li>
+            <li class="site-list__item">
+              <a class="link main-nav--link" href="./catalog.html">Каталог продукции</a>
+            </li>
+            <li class="site-list__item">
+              <a class="link main-nav--link" href="#">Подбор программы</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     <section class="intro">
       <header class="intro__header">
         <div class="intro__wrapper">
           <h2 class="visually-hidden">Введение в Кэт энерджи</h2>
           <p class="intro__title">Функциональное <br /> питание для котов</p>
           <p class="intro__slogan">Занялся собой? Займись котом!</p>
-          <button class="intro__get-programm btn btn--primary" type="button">
-            <span>Подобрать программу</span>
-          </button>
         </div>
       </header>
+      <button class="intro__get-programm btn btn--primary" type="button">
+        <span>Подобрать программу</span>
+      </button>
       <div class="intro__sample">
-        <img class="page__image" src="./img/index-can-desktop@1x.png" alt="">
-      </div>
-      <div class="intro__image">
-        <img width="100%" src="../img/index-background-desktop@1x.jpg" alt="">
+        <img class="page__image intro__sample-image" src="./img/index-can-desktop@1x.png" alt="">
       </div>
 
     </section>
+  </header>
+  <main class="page-main">
+    <h1 class="visually-hidden">"Кэт энерджи" - функциональное питание для котов</h1>
+
+
 
     <section class="products">
       <div class="products__wrapper">

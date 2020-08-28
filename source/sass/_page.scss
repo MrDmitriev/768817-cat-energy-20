@@ -1,18 +1,25 @@
 .page {
+  margin: 0;
   background-color: var(--main-bg-color);
   font-family: "Oswald", sans-serif;
   color: var(--primary-text-color);
+  height: 100%;
+  width: 100%;
 }
 
 .page__body {
+  height: 100%;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto auto;
+  margin: 0;
 }
 
 .page__image {
   max-width: 100%;
 }
+
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -21,7 +28,5 @@
   margin: -1px;
 }
 
-.block {
-  border: 1px solid black;
-}
+
 

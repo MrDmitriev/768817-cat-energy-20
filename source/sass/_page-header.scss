@@ -1,7 +1,16 @@
 .page-header {
   grid-column: 1/-1;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  background:  url("../img/index-background-desktop@1x.jpg"), linear-gradient(to right, var(--special-green-bg-color) 0%, var(--special-green-bg-color) 0%);
+  background-position: 100%;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: $desktop-1200) {
+  .page-header {
+    background: none;
+  }
 }
 
 .page-header__logo {
