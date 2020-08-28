@@ -39,6 +39,7 @@
 .intro__title,
 .intro__slogan {
   color: var(--primary-text-color);
+  max-width: 450px;
 }
 
 .intro__title {
@@ -47,11 +48,7 @@
   font-weight: 400;
   margin-bottom: 26px;
 
-  @media (max-width: $mobile-l-425) {
-    font-size: 36px;
-    line-height: 36px;
-    text-align: center;
-  }
+
 }
 
 .intro__slogan {
@@ -81,6 +78,43 @@
   .intro__sample {
     grid-column: 1/-1;
     grid-row: 2/4;
+    margin: auto;
+  }
+}
+
+@media (max-width: $mobile-l-425) {
+  .intro__title {
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    z-index: 20;
+    color: var(--secondary-text-color);
+  }
+
+  .intro__slogan {
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: var(--secondary-text-color);
+  }
+
+  .intro__sample {
+    grid-row: 1/3;
+    padding-top: 80px;
+  }
+
+  .intro__get-programm {
+    grid-column: 1/-1;
+    margin: auto auto 0;
+    width: 280px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0;
+    display: flex;
+  }
+
+  .intro__btn-text {
     margin: auto;
   }
 }
