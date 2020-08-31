@@ -1,3 +1,13 @@
 .link {
   text-decoration: none;
+
+  &--nav {
+    color: var(--primary-text-color);
+  }
+}
+
+@media (min-width: $desktop-1200) {
+  .link--nav {
+    color: var(--secondary-text-color);
+  }
 }

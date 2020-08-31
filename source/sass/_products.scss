@@ -4,14 +4,14 @@
 
 .products__list {
   background-color: var(--basic-gray-bg-color);
-    margin: 0px 27px;
-    max-width: 34.5%;
-    padding: 40px;
+  margin: 0 27px;
+  max-width: 34.5%;
+  padding: 40px;
 
-    @media (max-width: $tablet-width) {
-      max-width: 100%;
-      margin: 27px 27px 0;
-    }
+  @media (max-width: $tablet-width) {
+    max-width: 100%;
+    margin: 27px 27px 0;
+  }
 }
 
 .products__wrapper {

@@ -16,6 +16,7 @@
 
 .description__list {
   display: flex;
+
   @media (max-width: $tablet-width) {
     flex-wrap: wrap;
   }
@@ -36,6 +37,7 @@
     width: 300px;
   }
 }
+
 .description__title {
   font-style: normal;
   font-weight: 400;

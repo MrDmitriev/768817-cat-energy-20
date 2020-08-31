@@ -7,11 +7,13 @@
     padding-right: 0;
   }
 }
+
 .main-nav__wrapper {
   @media (max-width: $mobile-width-only) {
     display: none;
   }
 }
+
 .link--nav {
   font-size: 20px;
   line-height: 30px;
@@ -30,5 +32,16 @@
 
   @media (max-width: $tablet-width) {
     padding-left: 0;
+  }
+}
+
+.main-nav__toggle {
+  background-color: var(--main-bg-color);
+  border: none;
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav__toggle {
+    display: none;
   }
 }
